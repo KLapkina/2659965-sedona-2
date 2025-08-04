@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
-* Студент: [Неопознанный енот](https://up.htmlacademy.ru/htmlcss-individual/2/user/2659965).
-* Наставник: `Неизвестно`.
+* Студент: [Ксения Лапкина](https://up.htmlacademy.ru/htmlcss-individual/2/user/2659965).
+* Наставник: [Анна Лисененкова](https://htmlacademy.ru/profile/ankhena).
 
 ---
 
