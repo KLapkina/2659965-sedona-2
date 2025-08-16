@@ -2,7 +2,7 @@
 
 * Студент: [Ксения Лапкина](https://up.htmlacademy.ru/htmlcss-individual/2/user/2659965).
 * Наставник: [Анна Лисененкова](https://htmlacademy.ru/profile/ankhena).
-* Сайт: [Мой проект Седона](https://klapkina.github.io/2659965-sedona-2/)
+* Сайт: [Мой проект Седона](https://klapkina.github.io/2659965-sedona-2/).
 
 ---
 
