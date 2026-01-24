@@ -1,8 +1,8 @@
 # Личный проект «Седона»
 
-* Студент: [Ксения Лапкина.](https://htmlacademy.ru/profile/id2659965).
-* Наставник: `Оксана Вайнруб.`. (https://htmlacademy.ru/profile/id166797).
-* Сайт: [Мой проект Седона.](https://klapkina.github.io/2659965-sedona-2/).
+* Студент: [Ксения Лапкина](https://htmlacademy.ru/profile/id2659965).
+* Наставник: [Оксана Вайнруб](https://htmlacademy.ru/profile/id166797).
+* Сайт: [Мой проект Седона](https://klapkina.github.io/2659965-sedona-2/).
 ---
 
 _Не удаляйте и не обращайте внимание на файлы:_<br>
