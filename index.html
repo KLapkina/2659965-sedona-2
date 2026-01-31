@@ -9,7 +9,7 @@
     <header class = "page-header">
       <nav class = "navigation">
         <a class = "page-logo-link" href = "index.html">
-          <img class = "page-logo" src = "#" alt = "Логотип сайта про город Седона">
+          <img class = "page-logo" src = "images/logo/logo-cite.svg" alt = "Логотип сайта про город Седона" width="138" height="64">
         </a>
         <ul class = "navigation-list">
           <li class = "navigation-item">
@@ -44,7 +44,7 @@
             </a>
           </li>
           <li class = "navigation-item">
-            <a class = "button" href = "#">Хочу сюда</a>
+            <a class = "btn btn-want-here" href = "#">Хочу сюда</a>
           </li>
         </ul>
         </nav>
@@ -52,7 +52,8 @@
     <main class = "main-index">
       <section class = "welcome">
         <h1 class = "visually-hidden">Сайт о Седоне</h1>
-        <img class = "welcome-img" src = "#" alt = "Welcome to the gorgeous Sedona, because the Grand Canyon sucks!">
+        <img class = "welcome-img" src = "images/index-welcome-background.jpg" alt = "Пейзаж гор Седоны" width="1200" height="485">
+        <img class = "welcome-img" src = "images/index-text-welcome.svg" alt = "Welcome to the gorgeous Sedona, because the Grand Canyon sucks!" width="458" height="352">
         </section>
       <section class = "description">
         <h2 class = "description-title">Седона — небольшой городок в Аризоне,<br>
@@ -66,7 +67,7 @@
             <div class = "advantages-card">
               <h3 class = "advantages-card-title">Настоящий городок</h3>
               <p class = "advantages-card-text">Седона — не аттракцион для туристов, там течёт своя жизнь</p>
-              <img class = "advantages-card-img" src = "#" alt = "Домики с флагами стран в горах Седоны">
+              <img class = "advantages-card-img" src = "images/houses-flags.jpg" alt = "Домики с флагами стран в горах Седоны" width="800" height="385">
             </div>
           </li>
           <li class = "advantages-item">
@@ -91,7 +92,7 @@
             <div class = "advantages-card">
               <h3 class = "advantages-card-title">Там есть мост дьявола</h3>
               <p class = "advantages-card-text">Да, по нему можно пройти! Если вы осмелитесь, разумеется</p>
-              <img class = "advantages-card-img" src = "#" alt = "Мост дьявола">
+              <img class = "advantages-card-img" src = "images/devil-bridge.jpg" alt = "Мост дьявола" width="800" height="385">
             </div>
           </li>
           </ul>
@@ -101,6 +102,7 @@
           <p>Опытный персонал и качественное обслуживание!</p>
         </div>
         <section class = "services">
+          <h2 class = "visually-hidden">Услуги</h2>
           <ul class = "services-list">
             <li class = "services-item">
               <div class = "services-card">
@@ -125,14 +127,16 @@
           <section class = "search-hotel">
             <h2 class = "search-hotel-title">Заинтересовались?</h2>
             <p>Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Седоне</p>
-            <a class = "button" href = "#">Поиск гостиницы в Седоне</a>
+            <a class = "btn btn-search-hotel" href = "#">Поиск гостиницы в Седоне</a>
             </section>
           <section class = "subscribe">
+            <img class = "subscribe-image" src = "images/index-subscribe-background.jpg" alt = "Пейзаж Седоны" width="1200" height="415">
             <h2 class = "subscribe-title">Подпишитесь на рассылку</h2>
             <p>Только полезная информация и никакого спама, честное бойскаутское!</p>
             <form class = "subscribe-form" action="https://echo.htmlacademy.ru/" method="post">
-              <input type = "text" name="email" placeholder="Ваш e-mail">
-              <button class = "button" type="submit">Записаться</button>
+              <label for = "user-email">Ваш e-mail</label>
+              <input type = "text" name="email" id = "user-email" placeholder="Ваш e-mail">
+              <button class = "btn btn-sign-up" type="submit">Записаться</button>
               </form>
             </section>
     </main>
@@ -156,11 +160,10 @@
             </a>
           </li>
         </ul>
-        <adress class = "connection">
-          <a class = "phone-number" href="tel:+7 (812) 812-12-12">+7 (812) 812-12-12</a>
-        </adress>
-        <a class = "htmlacademy-logo-link" href="https://htmlacademy.ru/">
-          <img class = "htmlacademy-logo" src = "#" alt = "Логотип HTML Academy">
+          <a class = "phone-number" href="tel:+7(812)812-12-12">+7 (812) 812-12-12</a>
+        <a class = "htmlacademy-logo-link" href="https://htmlacademy.ru/intensive/htmlcss">
+          <img class = "htmlacademy-logo" src = "images/logo/logo-html-academy.svg" alt = "Логотип HTML Academy" width="115" height="33">
+          </a>
         </section>
 
     </footer>
