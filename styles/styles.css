@@ -1,0 +1,128 @@
+@font-face {
+font-family: "PT Sans";
+font-style: normal;
+font-weight: 400;
+src: url("../fonts/ptsans-400.woff2") format("woff2");
+font-display: swap;
+}
+
+@font-face {
+font-family: "PT Sans";
+font-style: normal;
+font-weight: 700;
+src: url("../fonts/ptsans-700.woff2") format("woff2");
+font-display: swap;
+}
+body {
+  font-family: "PT Sans", sans-serif;
+  font-size:22px;
+  line-height:26px;
+  color:#000000 ;
+  background-color: #F2F2F2;
+}
+.page-wrapper {
+  background-color: #FFFFFF;
+}
+.page-header{
+  font-weight: 700;
+}
+.page-header .navigation-link {
+  font-size:20px;
+  line-height:24px;
+  text-decoration: none;
+  color: #000000;
+}
+.btn-want-here{
+  font-size:16px;
+  line-height:20px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  text-align: center;
+}
+.welcome-img-nature{
+  width: auto;
+  height: auto;
+}
+
+/* .index-welcome {
+  background-image: url("../images/index-welcome-background.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color:#82B3D3;
+  } */
+.index-welcome {
+  background-image: url("../images/index-background-element.svg"), url("../images/index-welcome-background.jpg");
+  background-position: center bottom;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-color:#82B3D3;
+  }
+.description-title, .text-page, .search-hotel-title, .subscribe-title{
+  font-size:30px;
+  line-height:36px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.text-page .usual-text-page, .description-text, .search-hotel-text, .subscribe-text{
+  font-size:22px;
+  line-height:26px;
+  font-weight: 400;
+  text-align: center;
+  color: #333333;
+}
+.advantages-list, .services-list{
+  text-align: center;
+}
+.advantages-card-title, .services-card-title{
+   font-size:24px;
+  line-height:28px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #000000;
+}
+.advantages-card-text, services-card-text{
+   font-size:18px;
+  line-height:21px;
+  font-weight: 400;
+  color: #333333;
+}
+.first-advantages, .fifth-advantages {
+  color: #FFFFFF;
+  background-color: #82B3D3;
+}
+.second-advantages, .fourth-advantages, .first-service, .third-service {
+  background-color: #83B3D31F;
+}
+.third-advantages{
+  background-color: #83B3D333;
+}
+.btn-search-hotel, .btn-sign-up {
+  color:#FFFFFF;
+  font-size:20px;
+  line-height:36px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  vertical-align: middle;
+}
+.subscribe{
+  color: #FFFFFF;
+  background-color: #83B3D333;
+  background-image: url("../images/index-subscribe-background.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.footer .phone-number {
+  font-size:40px;
+  line-height:40px;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-align: center;
+  vertical-align: middle;
+  text-decoration: none;
+  color: #000000;
+}
