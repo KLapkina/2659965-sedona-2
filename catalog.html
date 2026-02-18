@@ -53,8 +53,7 @@
     </header>
     <main class = "main-inner">
       <div class = "wrapper-filters">
-      <img class = "filters-catalog-background" src = "images/catalog-background.jpg" alt = "Пейзаж Седоны" width="1200" height="412">
-      <h1 class = "page-title">Гостиницы Седоны</h1>
+      <h1 class = "catalog-page-title">Гостиницы Седоны</h1>
       <section class = "breadcrums">
         <h2 class = "visually-hidden">Навигация по страницам</h2>
         <ul class = "breadcrums-list">
@@ -163,7 +162,7 @@
                 <h3 class = "hotel-card-title">Amara Resort & Spa</h3>
                 <img class = "hotel-card-img" src = "images/hotels/hotel-1.jpg" alt = "Вид звёздного неба из ущелья" width="300" height="212">
                 </a>
-                <p>Гостиница
+                <p class = "hotel-card-text">Гостиница
                   <span>От 4000 ₽</span>
                 </p>
                 <a class = "btn btn-more-detail" href=" #">Подробнее</a>
@@ -182,11 +181,11 @@
                 <h3 class = "hotel-card-title">Villas at Poco Diablo</h3>
                 <img class = "hotel-card-img" src = "images/hotels/hotel-2.jpg" alt = "Небольшая горная цепь на фоне пасмурного неба и радуги" width="300" height="212">
                 </a>
-                <p>Гостиница
+                <p class = "hotel-card-text">Гостиница
                   <span>От 5000 ₽</span>
                 </p>
                 <a class = "btn btn-more-detail" href=" #">Подробнее</a>
-                <button class = "btn btn-in-like" type="button">В избранное</button>
+                <button class = "btn btn-is-like" type="button">В избранном</button>
                 <p class = "hotel-card-stars">
                   <span class = "visually-hidden">4 звезды</span>
                 </p>
@@ -200,7 +199,7 @@
                 <h3 class = "hotel-card-title">Desert Quail Inn</h3>
                 <img class = "hotel-card-img" src = "images/hotels/hotel-3.jpg" alt = "Гора на фоне ясного неба" width="300" height="212">
                 </a>
-                <p>Гостиница
+                <p class = "hotel-card-text">Гостиница
                   <span>От 2500 ₽</span>
                 </p>
                 <a class = "btn btn-more-detail" href=" #">Подробнее</a>
@@ -218,7 +217,7 @@
                 <h3 class = "hotel-card-title">GreenTree Inn</h3>
                 <img class = "hotel-card-img" src = "images/hotels/hotel-4.jpg" alt = "Обрыв под закатным солнцем на фоне звёзд" width="300" height="212">
                 </a>
-                <p>Гостиница
+                <p class = "hotel-card-text">Гостиница
                   <span>От 1500 ₽</span>
                 </p>
                 <a class = "btn btn-more-detail" href=" #">Подробнее</a>
@@ -232,7 +231,7 @@
           </ul>
           <ul class = "pagination-list">
             <li class = "pagination-item">
-              <a class = "pagination-link" href="#" aria-current="page">1</a>
+              <a class = "pagination-link pagination-link-current" href="#" aria-current="page">1</a>
             </li>
             <li class = "pagination-item">
               <a class = "pagination-link" href="#">2</a>
@@ -244,20 +243,20 @@
               <a class = "pagination-link" href="#">4</a>
             </li>
             <li class = "pagination-item">
-              <a class = "pagination-link" href="#">...</a>
+              <a class = "pagination-link pagination-link-more" href="#">...</a>
             </li>
             <li class = "pagination-item">
               <a class = "pagination-link" href="#">10</a>
             </li>
           </ul>
         </section>
-        <section class = "subscribe">
-            <h2 class = "subscribe-title">Подпишитесь на рассылку</h2>
-            <p>Только полезная информация и никакого спама, честное бойскаутское!</p>
+        <section class = "subscribe subscribe-catalog">
+            <h2 class = "subscribe-title subscribe-catalog-title">Подпишитесь на рассылку</h2>
+            <p class = "subscribe-text subscribe-text-catalog">Только полезная информация и никакого спама, честное бойскаутское!</p>
             <form class = "subscribe-form" action="https://echo.htmlacademy.ru/" method="post">
               <label for = "user-email">Ваш e-mail</label>
               <input type = "text" name="email" id = "user-email" placeholder="Ваш e-mail">
-              <button class = "btn btn-sign-up" type="submit">Записаться</button>
+              <button class = "btn btn-sign-up" type="submit">Подписаться</button>
               </form>
             </section>
     </main>
