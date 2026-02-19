@@ -51,11 +51,11 @@
         </ul>
         </nav>
     </header>
-    <main class = "main-inner">
+    <main class = "main-inner main-container">
       <div class = "wrapper-filters">
       <h1 class = "catalog-page-title">Гостиницы Седоны</h1>
       <section class = "breadcrums">
-        <h2 class = "visually-hidden">Навигация по страницам</h2>
+        <h2 class = "visually-hidden" hidden>Навигация по страницам</h2>
         <ul class = "breadcrums-list">
           <li class = "breadcrums-item">
             <a class = "breadcrums-link" href = "index.html">
@@ -68,8 +68,10 @@
         </ul>
       </section>
       <section class = "hotels-filters">
-        <h2 class = "visually-hidden">Фильтры гостиниц Седоны</h2>
+        <h2 class = "visually-hidden" hidden>Фильтры гостиниц Седоны</h2>
         <form class = "hotels-filters-form" action = "https://echo.htmlacademy.ru/" method = "get">
+          <div class = "hotels-filters-wrapper">
+          <div class = "filter-group-wrapper">
           <fieldset class = "hotels-filter-group">
             <legend class = "hotels-filter-title">Инфраструктура</legend>
             <ul class = "hotels-filter-list">
@@ -116,6 +118,8 @@
               </li>
             </ul>
           </fieldset>
+          </div>
+          <div class = "price-filter-wrapper">
           <fieldset class = "price-filter-group">
             <legend class = "price-filter-title">Стоимость, ₽:</legend>
             <label class = "filter-price-label" for = "min-price">от</label>
@@ -123,8 +127,12 @@
             <label class = "filter-price-label" for = "max-price">до</label>
             <input class = "filter-price-input" placeholder="9000" type = "number" id="max-price" name="max-price" value="9000" min = "0">
           </fieldset>
+          <div class = "filter-buttons">
           <button class = "btn btn-apply" type = "submit">Применить</button>
           <button class = "btn btn-reset" type = "reset">Сбросить</button>
+          </div>
+          </div>
+        </div>
         </form>
         </section>
         </div>
@@ -154,7 +162,7 @@
           </ul>
         </section>
         <section class = "hotel-card">
-          <h2 class = "visually-hidden">Найденные варианты жилья</h2>
+          <h2 class = "visually-hidden" hidden>Найденные варианты жилья</h2>
           <ul class = "hotel-card-list">
             <li class = "hotel-card-item">
               <div class = "hotel-card-wrapper">
@@ -260,9 +268,9 @@
               </form>
             </section>
     </main>
-<footer class = "inner-footer">
+<footer class = "page-footer">
       <section class = "footer-contacts">
-        <h2 class = "visually-hidden">Контакты</h2>
+        <h2 class = "visually-hidden" hidden>Контакты</h2>
         <ul class = "network-list">
           <li class = "network-item">
             <a class = "network-link">
