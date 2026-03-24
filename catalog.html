@@ -53,9 +53,10 @@
     </header>
     <main class = "main-container">
       <div class = "wrapper-filters">
+      <div class = "wrapper-title-breadcrums">
       <h1 class = "catalog-page-title">Гостиницы Седоны</h1>
       <section class = "breadcrums">
-        <h2 class = "visually-hidden" hidden>Навигация по страницам</h2>
+        <h2 class = "visually-hidden">Навигация по страницам</h2>
         <ul class = "breadcrums-list">
           <li class = "breadcrums-item">
             <a class = "breadcrums-link" href = "index.html">
@@ -67,8 +68,9 @@
           </li>
         </ul>
       </section>
+      </div>
       <section class = "hotels-filters">
-        <h2 class = "visually-hidden" hidden>Фильтры гостиниц Седоны</h2>
+        <h2 class = "visually-hidden">Фильтры гостиниц Седоны</h2>
         <form class = "hotels-filters-form" action = "https://echo.htmlacademy.ru/" method = "get">
           <div class = "hotels-filters-wrapper">
           <div class = "filter-group-wrapper">
@@ -146,7 +148,7 @@
           <ul class = "type-display-list">
             <li class = "type-display-item">
               <a class = "type-display-link" href="catalog.html?view=tile" aria-current="page">
-                <span class = "visually-hidden">Показать карточки</span>
+                <span class = "visually-hidden">Показать карточками</span>
               </a>
             </li>
             <li class = "type-display-item">
@@ -156,29 +158,32 @@
             </li>
             <li class = "type-display-item">
               <a class = "type-display-link" href="catalog.html?view=list">
-                <span class = "visually-hidden">Показать список</span>
+                <span class = "visually-hidden">Показать списком</span>
               </a>
             </li>
           </ul>
         </section>
         <section class = "hotel-card">
-          <h2 class = "visually-hidden" hidden>Найденные варианты жилья</h2>
+          <h2 class = "visually-hidden">Найденные варианты жилья</h2>
           <ul class = "hotel-card-list">
             <li class = "hotel-card-item">
               <div class = "hotel-card-wrapper">
                 <a class = "hotel-card-link">
-                <img class = "hotel-card-img" src = "images/hotels/hotel-1.jpg" alt = "Вид звёздного неба из ущелья" width="300" height="212">
                 <h3 class = "hotel-card-title">Amara Resort & Spa</h3>
+                <img class = "hotel-card-img" src = "images/hotels/hotel-1.jpg" alt = "Вид звёздного неба из ущелья" width="300" height="212">
                 </a>
-                <p class = "hotel-card-text">Гостиница
-                  <span>От 4000 ₽</span>
-                </p>
+                <div class = "card-text-wrapper">
+                <p class = "hotel-card-text">Гостиница</p>
+                <p  class = "hotel-card-price"><span>От 4000 ₽</span></p>
+                </div>
+                <div class = "buttons-characteristics-wrapper">
                 <a class = "btn btn-more-detail" href=" #">Подробнее</a>
                 <button class = "btn btn-in-like" type = "button">В избранное</button>
                 <p class = "hotel-card-stars">
                   <span class = "visually-hidden">4 звезды</span>
                 </p>
                 <p class = "hotel-card-raiting">Рейтинг: 8,5</p>
+                </div>
               </div>
             </li>
 
@@ -186,55 +191,64 @@
             <li class = "hotel-card-item">
               <div class = "hotel-card-wrapper">
                 <a class = "hotel-card-link">
-                <img class = "hotel-card-img" src = "images/hotels/hotel-2.jpg" alt = "Небольшая горная цепь на фоне пасмурного неба и радуги" width="300" height="212">
                 <h3 class = "hotel-card-title">Villas at Poco Diablo</h3>
+                <img class = "hotel-card-img" src = "images/hotels/hotel-2.jpg" alt = "Небольшая горная цепь на фоне пасмурного неба и радуги" width="300" height="212">
                 </a>
-                <p class = "hotel-card-text">Гостиница
-                  <span>От 5000 ₽</span>
-                </p>
+                <div class = "card-text-wrapper">
+                <p class = "hotel-card-text">Гостиница</p>
+                <p class = "hotel-card-price"><span>От 5000 ₽</span></p>
+                </div>
+                <div class = "buttons-characteristics-wrapper">
                 <a class = "btn btn-more-detail" href=" #">Подробнее</a>
                 <button class = "btn btn-is-like" type="button">В избранном</button>
                 <p class = "hotel-card-stars">
                   <span class = "visually-hidden">4 звезды</span>
                 </p>
                 <p class = "hotel-card-raiting">Рейтинг: 9,2</p>
+                </div>
               </div>
             </li>
 
             <li class = "hotel-card-item">
               <div class = "hotel-card-wrapper">
                 <a class = "hotel-card-link">
-                <img class = "hotel-card-img" src = "images/hotels/hotel-3.jpg" alt = "Гора на фоне ясного неба" width="300" height="212">
                 <h3 class = "hotel-card-title">Desert Quail Inn</h3>
+                <img class = "hotel-card-img" src = "images/hotels/hotel-3.jpg" alt = "Гора на фоне ясного неба" width="300" height="212">
                 </a>
-                <p class = "hotel-card-text">Гостиница
-                  <span>От 2500 ₽</span>
-                </p>
+                <div class = "card-text-wrapper">
+                <p class = "hotel-card-text">Гостиница</p>
+                <p class = "hotel-card-price"><span>От 2500 ₽</span></p>
+                </div>
+                <div class = "buttons-characteristics-wrapper">
                 <a class = "btn btn-more-detail" href=" #">Подробнее</a>
                 <button class = "btn btn-in-like" type="button">В избранное</button>
                 <p class = "hotel-card-stars">
                   <span class = "visually-hidden">3 звезды</span>
                 </p>
                 <p class = "hotel-card-raiting">Рейтинг: 6,9</p>
+                </div>
               </div>
             </li>
 
             <li class = "hotel-card-item">
               <div class = "hotel-card-wrapper">
                 <a class = "hotel-card-link">
-                <img class = "hotel-card-img" src = "images/hotels/hotel-4.jpg" alt = "Обрыв под закатным солнцем на фоне звёзд" width="300" height="212">
                 <h3 class = "hotel-card-title">GreenTree Inn</h3>
+                <img class = "hotel-card-img" src = "images/hotels/hotel-4.jpg" alt = "Обрыв под закатным солнцем на фоне звёзд" width="300" height="212">
                 </a>
-                <p class = "hotel-card-text">Гостиница
-                  <span>От 1500 ₽</span>
-                </p>
+                <div class = "card-text-wrapper">
+                <p class = "hotel-card-text">Гостиница</p>
+                <p class = "hotel-card-price"><span>От 1500 ₽</span></p>
+                </div>
+                <div class = "buttons-characteristics-wrapper">
                 <a class = "btn btn-more-detail" href=" #">Подробнее</a>
                 <button class = "btn btn-in-like" type="button">В избранное</button>
                 <p class = "hotel-card-stars">
                   <span class = "visually-hidden">2 звезды</span>
                 </p>
                 <p class = "hotel-card-raiting">Рейтинг: 5,0</p>
-              </div>
+                </div>
+                </div>
             </li>
           </ul>
           <ul class = "pagination-list">
@@ -270,7 +284,7 @@
     </main>
 <footer class = "page-footer">
       <section class = "footer-contacts">
-        <h2 class = "visually-hidden" hidden>Контакты</h2>
+        <h2 class = "visually-hidden">Контакты</h2>
         <ul class = "network-list">
           <li class = "network-item">
             <a class = "network-link">
